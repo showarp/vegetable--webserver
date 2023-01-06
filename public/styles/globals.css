@@ -1,0 +1,14 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.dtbsleft .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background: white !important;
+  color:#254000 !important;
+}
+.YST .ant-avatar-square{
+  border-radius: 7px !important;
+}

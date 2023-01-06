@@ -1,0 +1,31 @@
+{
+  "name": "software_cup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@amap/amap-react": "^0.1.5",
+    "@ant-design/charts": "^1.3.6",
+    "@ant-design/icons": "^4.7.0",
+    "@mapbox/mapbox-gl-language": "^1.0.0",
+    "antd": "^4.20.2",
+    "formidable": "^2.0.1",
+    "iconv-lite": "^0.6.3",
+    "mapbox-gl": "^2.9.1",
+    "mongodb": "^4.5.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "sharp": "^0.30.6",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
