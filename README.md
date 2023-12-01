@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 基于yolov5的果蔬识别与定位系统
+其具备网页端和小程序端
+## 技术栈
+使用React(JavaScript库)进行web界面搭建。
+使用Ant design对界面进行修饰
+使用AntV设计数据可视化图形
+使用Mapbox引用高德地图实现展现果蔬位置功能
+使用wxss，wxml，JavaScript，Weui来开发微信小程序
+使用NextJs，Express（Web应用框架），WS开发后端
+使用yolo v5模型实现果蔬识别功能
+## 系统界面
+分为小程序端和网页端
+### 网页端
+![image](https://github.com/showarp/vegetable--webserver/assets/59379571/2be248d5-573c-4b27-8394-0c8027fb1188)  
+图像识别界面  
+![image](https://github.com/showarp/vegetable--webserver/assets/59379571/96e0f944-656a-4adf-9fa0-34239f18541f)  
+视频识别界面  
+![image](https://github.com/showarp/vegetable--webserver/assets/59379571/2f0cf5b6-b060-4098-a7f1-1a31797782ce)  ![image](https://github.com/showarp/vegetable--webserver/assets/59379571/f82a4730-cda1-471f-b32d-bba0f0da6618)  
+果蔬数据界面  
+### 小程序端
+![image](https://github.com/showarp/vegetable--webserver/assets/59379571/1da1b25b-18c4-4239-8e91-3269c32d8170)  ![image](https://github.com/showarp/vegetable--webserver/assets/59379571/d89af6d6-1012-44b0-a24c-85aa3502b2d4)
 
-## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
